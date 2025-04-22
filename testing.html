@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My App</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}"/>
+  </head>
+
+  <body>
+    <div class="content">
+        <h1>testing page</h1>
+        <table>
+            <tr><!--rows-->
+                <th><!--table head column-->
+                    Task
+                </th>
+                <th>Added</th>
+                <th>Actions</th>
+            </tr>
+
+            <tr>
+                <td><!--table data-->
+                    content
+                </td>
+                <td>data</td>
+                <td>more</td>
+            </tr>
+        </table>
+        <form action="">
+            <input type="text" name = "content" id="content">
+            <input type="text" value ="Add task" id="btn_Add" >
+        </form>
+    </div>
+  </body>
+</html>
